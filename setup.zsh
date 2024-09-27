@@ -99,7 +99,7 @@ if [ -d "$DOTFILES" ]; then
   git pull
 else
   echo "Cloning dotfiles to $DOTFILES..."
-  git clone https://github.com/myuser/myrepo.git "$DOTFILES"
+  git clone git@github.com:gihrig/dotfiles-ooloth.git "$DOTFILES"
 fi
 
 ###########

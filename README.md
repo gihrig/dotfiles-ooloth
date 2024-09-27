@@ -25,6 +25,12 @@ sudo softwareupdate --install --all --restart
 
 6. Repeat (5) until everything is up to date
 
+7. Confirm access to github
+
+```sh
+ssh git@github.com
+```
+
 ## Installation
 
 To set up your Mac, run the following command:
